@@ -8,58 +8,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>responsive-profile-from-mockups</title>
+</head>
 
 <body>
     <header>
-        <h1>Student Name</h1>
-        <nav>
-            <ul class="nav">
-                <li class="button">HOME</li>
-                <li class="button">PORTFOLIO</li>
-                <li class="button">CONTACT</li>
-            </ul>
-        </nav>
-        <img class="dp" src="images/responsive-layout-profile.png">
-        <p> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        <div class="top-header">
+            <h1>Student Name</h1>
+                <ul class="nav">
+                    <li class="button">HOME</li>
+                    <li class="button">PORTFOLIO</li>
+                    <li class="button">CONTACT</li>
+                </ul>
+        </div>
+        <div class="wrapper">
+            <img class="dp" src="images/responsive-layout-profile.png" alt="profile image">
+            <p id="container"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        </div>
     </header>
     
     <main>
         <h2>PORTFOLIO</h2>
-        <img src="images/portfolio-1.png">
+        <div class="articles">
+            <div class="portfolio">
+                <img src="images/portfolio-1.png" alt="graphic of portfolio">
+                <h3>Marketing Page</h3>
+                <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            </div>
 
-        <h3>Marketing Page</h3>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-        <img src="images/portfolio-2.png">
+            <div class="portfolio">
+                <img src="images/portfolio-2.png" alt="graphic of search page">
+                <h3>Search Page</h3>
+                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+            </div>
 
-        <h3>Search Page</h3>
-        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-        <img src="images/portfolio-3.png">
+            <div class="portfolio">
+                <img src="images/portfolio-3.png" alt="graphic of travel app">
+                <h3>Travel App</h3>
+                <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+             </div>
 
-        <h3>Travel App</h3>
-        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-        <img src="images/portfolio-4.png">
-        
-        <h3>Map of Favourite Spots</h3>
-        <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour.</p>
-        <img src="images/portfolio-5.png">
+            <div class="portfolio">
+                <img src="images/portfolio-4.png" alt="graphic of a map">        
+                <h3>Map of Favourite Spots</h3>
+                <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour.</p>
+            </div>
 
-        <h3>Photo Gallery</h3>
-        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        <img src="images/portfolio-6.png">
+            <div class="portfolio">
+                <img src="images/portfolio-5.png" alt="graphic of photogallery">
+                <h3>Photo Gallery</h3>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </div>
 
-        <h3>Calculator</h3>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            <div class="portfolio">
+                <img src="images/portfolio-6.png" alt="graphic of a Calculator">
+                <h3>Calculator</h3>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </div>
+    
+        </div>
     </main>
 
     <footer>
         <h2>CONTACT</h2>
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone <a class="contact-me-now" href="#">+1 (111) 555-1234</a></p>
-            <p>Email <a class="contact-me-now" href="mailto:email@yoursite.com?subject=G'day!">email@yoursite.com</a></p>
+            <p class="interested">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <p class="interested">Phone <a class="contact-me-now" href="#">+1 (111) 555-1234</a></p>
+            <p class="interested" id="email" >Email <a class="contact-me-now" href="mailto:email@yoursite.com?subject=G'day!">email@yoursite.com</a></p>
             <ul class="below-footer">
-                <li class="left-nav"><a href="#">Student name</a></li>
-                <li class="right-nav"><a href="#">BACK TO TOP</a></li>
+                <li class="name-footer"><a href="#">Student name</a></li>
+                <li class="back-footer"><a href="#">BACK TO TOP</a></li>
+                <li id="home-footer"><a href="#">HOME</a></li>
+                <li id="portfolio-footer"><a href="#">PORTFOLIO</a></li>
+                <li id="contact-footer"><a href="#">CONTACT</a></li>
             </ul>
     </footer>
 </body>
