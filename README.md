@@ -1,5 +1,6 @@
 # profile
-[Techdegree Project 1 - Personal Profile Page on github pages](https://gracemarsh.github.io/profile/)
+[Techdegree Project 2 - Responsvie Profile from Mockups on github pages](https://gracemarsh.github.io/profile/)
+
 Beginning with three mockup images for a responsive website for mobile, tablet and desktop, I began by creating a file system and copying the content and layout from the mobile mockup image to the index.html file. I also linked a normalize file to rest from any user default designs. https://cdnjs.com/libraries/normalize 
 Next, I tried to choose a matching font on google fonts and linked it to the index.html file and css stylesheet. 
 I then began using the stylesheet to imitate the mockup as closely as possible. 
