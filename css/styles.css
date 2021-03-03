@@ -113,7 +113,7 @@ footer a {
     #container {
         font-size: 22px;    
         text-align: left;
-        padding: 0;
+        padding: 0 3vw;
     }
     .dp {
         order: 1;
@@ -187,9 +187,6 @@ footer a {
     h1 {
         padding: 0;
         display: block;
-    }
-    #container {
-        padding: 0 3vw;
     }
     .button {
         margin: 0 0 0 0.5em;
