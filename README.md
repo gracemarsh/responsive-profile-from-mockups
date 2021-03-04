@@ -14,3 +14,5 @@ Problem: line above ".below-footer" don't know how to stop it short and keep in 
 
 After I was happy with my mobile design I then added media queries for table & desktop size then changed the mockup.html to the respective images to create new rules for these sizes. 
 In the browser using chrome dev tools I then changed the responsive to the right px.
+
+Used flexbox to adjust the page layout.
