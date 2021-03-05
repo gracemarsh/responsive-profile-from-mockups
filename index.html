@@ -14,23 +14,27 @@
 
 <body>
     <header>
-        <div class="top-header">
-            <h1>Student Name</h1>
-                <ul class="nav">
-                    <li class="button">HOME</li>
-                    <li class="button">PORTFOLIO</li>
-                    <li class="button">CONTACT</li>
-                </ul>
-        </div>
-        <div class="wrapper">
-            <img class="dp" src="images/responsive-layout-profile.png" alt="profile image">
-            <p id="container"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-        </div>
+        <section id="top">
+            <nav class="top-header">
+                <h1 id="home">Grace Marsh</h1>
+                    <ul class="nav">
+                        <li class="button"><a href="#home">HOME</a></li>
+                        <li class="button"><a href="#portolio-section">PORTFOLIO</a></li>
+                        <li class="button"><a href="#skills">SKILLS</a></li>
+                        <li class="button"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+            <div class="wrapper">
+                <img class="dp" src="images/responsive-layout-profile.png" alt="profile image">
+                <p id="intro"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            </div>
+        </section>
     </header>
     
     <main>
-        <h2>PORTFOLIO</h2>
-        <div class="articles">
+        <h2 id="portolio-section">PORTFOLIO</h2>
+        <section class="articles">
             <div class="portfolio">
                 <img src="images/portfolio-1.png" alt="graphic of portfolio">
                 <h3>Marketing Page</h3>
@@ -65,22 +69,27 @@
                 <img src="images/portfolio-6.png" alt="graphic of a Calculator">
                 <h3>Calculator</h3>
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-            </div>
-    
-        </div>
+            </div> 
+        </section>
+
+        <section>
+            <h2 id="skills">SKILLS</h2>
+            <p><em>I don't have money, but what I do have are a very particular set of skills. Skills I have acquired over a very long career.</em></p>
+        </section>
     </main>
 
     <footer>
-        <h2>CONTACT</h2>
+        <h2 id="contact">CONTACT</h2>
             <p class="interested">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p class="interested">Phone <a class="contact-me-now" href="#">+1 (111) 555-1234</a></p>
+            <p class="interested">Phone <a class="contact-me-now" href="tel:+614 4423 4567">+614 4423 4567</a></p>
             <p class="interested" id="email" >Email <a class="contact-me-now" href="mailto:email@yoursite.com?subject=G'day!">email@yoursite.com</a></p>
             <ul class="below-footer">
-                <li class="name-footer"><a href="#">Student name</a></li>
-                <li class="back-footer"><a href="#">BACK TO TOP</a></li>
-                <li id="home-footer"><a href="#">HOME</a></li>
-                <li id="portfolio-footer"><a href="#">PORTFOLIO</a></li>
-                <li id="contact-footer"><a href="#">CONTACT</a></li>
+                <li class="name-footer"><a href="#home">Grace Marsh</a></li>
+                <li class="back-footer"><a href="#home">BACK TO TOP</a></li>
+                <li id="home-footer"><a href="#home">HOME</a></li>
+                <li id="portfolio-footer"><a href="#portolio-section">PORTFOLIO</a></li>
+                <li id="skills-footer"><a href="#skills">SKILLS</a></li>
+                <li id="contact-footer"><a href="#contact">CONTACT</a></li>
             </ul>
     </footer>
 </body>
