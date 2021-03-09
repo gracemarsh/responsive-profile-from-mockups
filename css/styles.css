@@ -160,7 +160,7 @@ h2 {
         font-size: 22px;
         margin-bottom: 2em;
     }
-    #home-footer, #portfolio-footer, #contact-footer {
+    #home-footer, #portfolio-footer, #contact-footer, #skills-footer {
         display: inline;
     }
     .below-footer {
